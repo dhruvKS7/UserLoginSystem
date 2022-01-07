@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Non me ne frega</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylingSheet.css"/>
+    </head>
+    <body>
+        <h1>Tester</h1>
+        <br>
+        <div>
+            <a class="login-btn" href="#popup1">Login &raquo;</a>
+        </div>
+        <hr>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Login Box</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <form action="loginprocess.jsp" method="POST">
+                        User Name <input type="text" name="userName"/>
+                        <br>
+                        <br>
+                        Password <input type="password" name="password"/>
+                        <br>
+                        <br>
+                        <input class="Sbutton" type="submit" value="login"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
